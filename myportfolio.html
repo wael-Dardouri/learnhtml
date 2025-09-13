@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Mon Portfolio</title>
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Menu -->
   <h2>Menu</h2>
-  <ul>
+  <ul class="navbar">
     <li><a href="#home">Accueil</a></li>
     <li><a href="#about">À propos</a></li>
     <li><a href="#work">Travaux</a></li>
@@ -17,7 +19,7 @@
   </ul>
 
   <!-- Accueil -->
-  <h1 id="home">Bienvenue sur mon Portfolio</h1>
+  <h1 id="home" class="titre-principal">Bienvenue sur mon Portfolio</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros eu elit ullamcorper varius.</p>
 
   <p>Ma vidéo :</p>
@@ -33,7 +35,7 @@
   <!-- À propos -->
   <h2 id="about">À propos</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  <ul>
+  <ul class="liste-a-propos">
     <li>Développeur web</li>
     <li>Designer UI/UX</li>
     <li>Passionné par l’IA</li>
@@ -42,7 +44,7 @@
   <!-- réalisations -->
   <h2 id="work">Mes réalisations</h2>
   <p>Voici quelques projets :</p>
-  <table border="1">
+  <table class="table-projets">
     <tr>
       <th>Projet</th>
       <th>Description</th>
@@ -67,7 +69,7 @@
 
   <!-- Contact -->
   <h2 id="contact">Contactez-moi</h2>
-  <form>
+  <form class="form-contact">
     <p>
       Nom :<br>
       <input type="text" name="nom">
@@ -86,8 +88,9 @@
   </form>
 
   <hr>
-  <p> Mon Portfolio made with ❤️ by wael 2025
-  </p>
+  <footer>
+    <p>Mon Portfolio made with ❤️ by wael 2025</p>
+  </footer>
 
 </body>
 </html>

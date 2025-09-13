@@ -1,0 +1,90 @@
+/* === Styles généraux === */
+body {
+  font-family: 'Roboto', sans-serif; /* Police Roboto */
+  margin: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* === Barre de navigation === */
+.navbar {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline; /* Navigation en ligne */
+  margin-right: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: #ff6600;
+}
+
+/* === Titres === */
+.titre-principal {
+  color: #222;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* === Liste À propos === */
+.liste-a-propos {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* === Table === */
+.table-projets {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 15px 0;
+  background-color: #fff;
+}
+
+.table-projets th, .table-projets td {
+  border: 1px solid #aaa;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-projets th {
+  background-color: #e0e0e0;
+}
+
+/* === Formulaire === */
+.form-contact input, 
+.form-contact textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #aaa;
+}
+
+.form-contact input[type="submit"] {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-contact input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* === Pied de page === */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555;
+}
